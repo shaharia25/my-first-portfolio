@@ -35,8 +35,20 @@ nav ul li{
     border-radius: 5px;
     font-size: 20px;
 }
+/* secondary style */
 .dark2{
     color: #474747;
+}
+.heading_style{
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+    margin-top: 2px;
+}
+.paragraph_style{
+    font-weight: 200;
+    font-size: 18px;
+    color: #757575;
 }
 nav ul li a{
     text-decoration: none;
@@ -68,4 +80,29 @@ nav ul li a{
 .banner_image{
     max-width: 584px;
 
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+.secondary_bg{
+    background-color: #FFF8F3;
+    margin-top: 130px;
+    text-align: center;
+    padding: 130px 156px ;
+
+}
+.about_items{
+    display: flex;
+    justify-content: space-between;
+}
+.item_description{
+    font-size: 20px;
+    font: weight 400px;
+    margin-top: 5px;
+}
+.interner_bg{
+    background-color: white;
+    border: 1px solid black;
 }
