@@ -50,6 +50,9 @@ nav ul li{
     font-size: 18px;
     color: #757575;
 }
+.text_center{
+    text-align: center;
+}
 nav ul li a{
     text-decoration: none;
     
@@ -72,10 +75,18 @@ nav ul li a{
 .banner_title{
     font-size: 85px;
     font-weight: 400;
+    line-height: 2px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+
+}
+.cv_download{
+    margin-right: 30px;
 }
 .banner_p{
     font-size: 18px;
     font-weight: 200;
+    line-height: 1.6;
 }
 .banner_image{
     max-width: 584px;
@@ -91,6 +102,8 @@ main{
     margin-top: 130px;
     text-align: center;
     padding: 130px 156px ;
+    border: none;
+    border-radius: 8px;
 
 }
 .about_items{
@@ -105,4 +118,27 @@ main{
 .interner_bg{
     background-color: white;
     border: 1px solid black;
+}
+/* what i do design */
+.skills{
+    margin-top: 130px;
+}
+.section_heading{
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.skill_container{
+    display: flex;
+    gap: 20px;
+    padding: 15px; 
+
+}
+.skill{
+    padding: 5px;
+    box-shadow: 0px 6px 50px 0 rgba(0, 0, 0, 0.06);
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 35px;
+    padding-bottom: 2px;
 }
