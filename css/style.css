@@ -95,6 +95,7 @@ nav ul li a{
 main{
     max-width: 1140px;
     margin: 0 auto;
+    margin-bottom: 100px;
 
 }
 .secondary_bg{
@@ -141,4 +142,85 @@ main{
     padding-left: 30px;
     padding-right: 35px;
     padding-bottom: 2px;
+}
+/*  Summury Section Start */
+.summary_gap{
+    margin-top: 100px;
+}
+.summury_section{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.coloum{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.title_of_details{
+    margin-bottom: 25px;
+    font-weight:bold;
+    font-size: 30;
+}
+.name_of_digree{
+    margin-bottom: 7px;
+}
+.name_of_institue{
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+.name_of_digree{
+    font-weight: bold;
+    font-size: 25;
+    color: #474747;
+}
+.name_of_institue{
+    font-weight: 300;
+    font-size: 20;
+    color:#757575 ;
+}
+.education_details{
+    font-weight: 200;
+    font-size: 16px;
+    color: #757575;
+    padding-right: 180px;
+
+}
+hr{
+    margin-right: 50px;
+}
+.download_cv{
+    margin-top: 30px;
+}
+/* footer design */
+footer{
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+
+
+}
+.footer-colum{
+    width: 50%;
+}
+footer input[type="text"], input[type="email"] {
+    width: 100%;
+    height: 84px;
+    background-color: white;
+    display: block;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+textarea{
+    width: 100%;
+    height: 180px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 20px;
+    margin-bottom: 15px;
 }
